@@ -1,30 +1,71 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Website</title>
-  <style>
-  h1 {
-    color: blue;
-    font-size: 36px;
-  }
-</style>
-
+    <title>My Personal Website</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .header {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+      .main {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .about {
+        background-color: #eee;
+        padding: 20px;
+      }
+      .interests {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      .interests li {
+        display: inline-block;
+        margin-right: 10px;
+      }
+      .contact {
+        text-align: center;
+      }
+      .social-icons img {
+        width: 32px;
+        height: 32px;
+        vertical-align: middle;
+      }
+    </style>
   </head>
   <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is a one-page website featuring some information about me and my interests.</p>
-
-    <h2>About Me</h2>
-    <p>I am a software developer with a passion for creating useful and innovative applications. In my free time, I enjoy hiking and playing guitar.</p>
-
-    <h2>My Interests</h2>
-    <ul>
-      <li>Software Development</li>
-      <li>Hiking</li>
-      <li>Music</li>
-    </ul>
-
-    <h2>Contact Me</h2>
-    <p>You can reach me at <a href="mailto:info@example.com">info@example.com</a>.</p>
+    <div class="header">
+      <h1>My Personal Website</h1>
+    </div>
+    <div class="main">
+      <div class="about">
+        <h2>About Me</h2>
+        <p>I am a software developer with a passion for creating useful and innovative applications. In my free time, I enjoy hiking and playing guitar.</p>
+      </div>
+      <div class="interests">
+        <h2>My Interests</h2>
+        <ul>
+          <li>Software Development</li>
+          <li>Hiking</li>
+          <li>Music</li>
+        </ul>
+      </div>
+      <div class="contact">
+        <h2>Contact Me</h2>
+        <p>You can reach me at <a href="mailto:info@example.com">info@example.com</a>.</p>
+        <div class="social-icons">
+          <a href="https://twitter.com/example"><img src="/images/twitter.png" alt="Twitter"></a>
+          <a href="https://linkedin.com/in/example"><img src="/images/linkedin.png" alt="LinkedIn"></a>
+          <a href="https://github.com/example"><img src="/images/github.png" alt="GitHub"></a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
